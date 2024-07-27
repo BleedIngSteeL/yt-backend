@@ -8,8 +8,10 @@ import app from "./app.js";
 
 // dotenv ko require se import banate h aise 
 dotenv.config({
-    path: './env'
+    path: '../.env'
 })
+console.log(dotenv.config());
+
 
 connectDB()
 .then(()=>{
