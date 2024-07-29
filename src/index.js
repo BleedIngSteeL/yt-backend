@@ -10,7 +10,7 @@ import app from "./app.js";
 dotenv.config({
     path: '../.env'
 })
-console.log(dotenv.config());
+//console.log(dotenv.config());
 
 
 connectDB()
