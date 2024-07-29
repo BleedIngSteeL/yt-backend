@@ -23,7 +23,7 @@ const uploadOnCloudinary = async (localFilePath) => {
     }
 }
 
-export default uploadOnCloudinary;
+export { uploadOnCloudinary };
 
 
 // user se frontenfd se image ya file leke pehle local storage pe rkhte hai, uske baad local storage se cloudinary pe dalte hai, aur cloudinary response me url bhejta h ek. malicious data pada reh jaega local storage pe isiliye fs module ka unlink ko synchronously use krke local storage se fs ka link todd denge .
