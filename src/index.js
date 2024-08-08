@@ -11,6 +11,7 @@ dotenv.config({
     path: '../.env'
 })
 //console.log(dotenv.config());
+// console.log("mongodb url : ", process.env.MONGODB_URL);
 
 
 connectDB()
